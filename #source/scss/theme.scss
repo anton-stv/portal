@@ -1,0 +1,289 @@
+/*Стили темы*/
+html, body {
+  overflow-x: scroll;
+  min-width: 320px;
+}
+
+@media (min-width: 320px) {
+  html, body {
+    overflow-x: hidden;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: calc(1em + 1vw);
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p {
+  padding-top: 0px;
+}
+
+a, body, input, select, textarea, label {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5em;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+*:focus {
+  outline: none;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.imageaboutus
+img {
+  width: 100% !important;
+}
+
+body, input, select, textarea {
+  color: #707070;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #DDD;
+}
+
+::-webkit-scrollbar-track {
+  border: solid 1px #F1F1F1;
+  background-color: #FFF;
+}
+
+::-moz-selection {
+  background-color: #4ccef0;
+}
+
+::selection {
+  background-color: #4ccef0;
+}
+
+::-moz-selection {
+  color: #FFF;
+}
+
+::selection {
+  color: #FFF;
+}
+
+p {
+  padding: 10px 0px 10px 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 30px;
+  color: #4ccef0;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: #4ccef0;
+}
+
+h6, h6 a, h6 label {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4em;
+  font-size: 15px;
+}
+
+@media (min-width: 320px) {
+  h6, h6 a, h6 label {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 760px) {
+  h6, h6 a, h6 label {
+    font-size: 18px;
+  }
+}
+
+h5, h5 a, h5 label {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2em;
+  font-size: 18px;
+}
+
+@media (min-width: 320px) {
+  h5, h5 a, h5 label {
+    font-size: 21px;
+  }
+}
+
+@media (min-width: 760px) {
+  h5, h5 a, h5 label {
+    font-size: 24px;
+  }
+}
+
+h4, h4 a {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2em;
+  font-size: 20px;
+}
+
+@media (min-width: 320px) {
+  h4, h4 a {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 760px) {
+  h4, h4 a {
+    font-size: 30px;
+  }
+}
+
+h3, h3 a {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.2em;
+  font-size: 28px;
+}
+
+@media (min-width: 320px) {
+  h3, h3 a {
+    font-size: 33px;
+  }
+}
+
+@media (min-width: 760px) {
+  h3, h3 a {
+    font-size: 38px;
+  }
+}
+
+h2, h2 a {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1em;
+  font-size: 40px;
+}
+
+@media (min-width: 320px) {
+  h2, h2 a {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 760px) {
+  h2, h2 a {
+    font-size: 50px;
+  }
+}
+
+h1, h1 a {
+  font-family: 'Dosis','Dosis';
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1em;
+  font-size: 45px;
+}
+
+@media (min-width: 320px) {
+  h1, h1 a {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 760px) {
+  h1, h1 a {
+    font-size: 55px;
+  }
+}
+
+a {
+  color: #4ccef0;
+}
+
+a:hover {
+  color: #4ccef0;
+}
+
+input, button, textarea {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-appearance: none;
+}
+
+input, select, button, textarea {
+  width: 100%;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+input, select, button, textarea, .widget_search label, label.pb-infield-label, label.theme-infield-label {
+  border-radius: 0;
+  -moz-box-sizing: border-box;
+  padding: 0px 15px 0px 15px;
+}
+
+select, button, input[type="button"], input[type="submit"] {
+  cursor: pointer;
+}
+
+input[type="submit"], input[type="button"] {
+  width: 100%;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0px 20px 0px 20px;
+}
+
+button, select, input[type="tel"], input[type="text"], input[type="email"], input[type="submit"], input[type="button"], input[type="search"], input[type="password"], label.pb-infield-label, label.theme-infield-label, .widget_search label {
+  height: 46px;
+  line-height: 1.5em;
+}
+
+input, textarea {
+  display: block;
+  -webkit-transition: border-color .25s ease, -webkit-box-shadow .25s ease;
+  transition: border-color .25s ease, -webkit-box-shadow .25s ease;
+  transition: border-color .25s ease, box-shadow .25s ease;
+  transition: border-color .25s ease, box-shadow .25s ease, -webkit-box-shadow .25s ease;
+}
+/*# sourceMappingURL=theme.css.map */
