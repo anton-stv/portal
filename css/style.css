@@ -827,11 +827,11 @@ input, textarea {
   background-color: #FFEEE3;
   color: #222;
 }
-.discount .discount__heading {
+.discount__heading {
   color: #4ccef0;
   font-weight: bold;
 }
-.discount .porocode {
+.discount .promocode {
   color: #4ccef0;
   font-weight: bold;
 }

@@ -8,12 +8,12 @@
 .discount{
 	padding: .75rem 1.25rem;
 	background-color: #FFEEE3;
-	    color: #222;
-	.discount__heading{
+	color: #222;
+	&__heading{
 		color: #4ccef0;
 		font-weight: bold;
 	}
-	.porocode{
+	.promocode{
 		color: #4ccef0;
 		font-weight: bold;
 	}
